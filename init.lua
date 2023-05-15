@@ -1,4 +1,3 @@
---  NOTE: Must happen before plugins are required (otherwise wrong leader will be used)
 require("personal.options")
 require("personal.keymaps")
 require("personal.plugins")

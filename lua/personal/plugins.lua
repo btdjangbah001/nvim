@@ -50,19 +50,7 @@ local plugins = {
 
   -- Useful plugin to show you pending keybinds.
   { 'folke/which-key.nvim', opts = {} },
-  { -- Adds git releated signs to the gutter, as well as utilities for managing changes
-    'lewis6991/gitsigns.nvim',
-    opts = {
-      -- See `:help gitsigns.txt`
-      signs = {
-        add = { text = '+' },
-        change = { text = '~' },
-        delete = { text = '_' },
-        topdelete = { text = '‾' },
-        changedelete = { text = '~' },
-      },
-    },
-  },
+  'lewis6991/gitsigns.nvim',
 
   { -- Theme inspired by Atom
     'navarasu/onedark.nvim',
@@ -72,18 +60,8 @@ local plugins = {
     end,
   },
 
-  { -- Set lualine as statusline
+  -- Set lualine as statusline
     'nvim-lualine/lualine.nvim',
-    -- See `:help lualine.txt`
-    opts = {
-      options = {
-        icons_enabled = false,
-        theme = 'onedark',
-        component_separators = '|',
-        section_separators = '',
-      },
-    },
-  },
 
   { -- Add indentation guides even on blank lines
     'lukas-reineke/indent-blankline.nvim',
@@ -131,6 +109,7 @@ local plugins = {
   'simrat39/rust-tools.nvim',
   'mfussenegger/nvim-dap',
   'rcarriga/nvim-dap-ui',
+  'github/copilot.vim',
 }
 
 local opts = {}

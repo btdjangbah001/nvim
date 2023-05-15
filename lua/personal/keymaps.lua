@@ -13,3 +13,5 @@ vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, { desc = "Open float
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = "Open diagnostics list" })
 
 vim.keymap.set('n', '<leader><Tab>', '<C-w>w', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>wl', '<C-w>h', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>da', ':%d<CR>', { noremap = true, silent = true })
