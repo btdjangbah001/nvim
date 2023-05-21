@@ -20,7 +20,6 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.relativenumber = true
 vim.opt.autowrite = true
 
--- [[ Setting options ]]
 -- See `:help vim.o`
 -- Set highlight on search
 vim.o.hlsearch = false
@@ -61,3 +60,13 @@ vim.o.completeopt = 'menuone,noselect'
 vim.o.termguicolors = true
 
 vim.opt.signcolumn = 'yes:2'
+
+vim.opt.tabstop = 4
+
+vim.opt.shiftwidth = 4
+
+vim.opt.smartindent = true
+
+vim.opt.completeopt = { "menuone", "noselect" }
+
+vim.opt.cursorline = true

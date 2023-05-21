@@ -110,6 +110,12 @@ local plugins = {
   'mfussenegger/nvim-dap',
   'rcarriga/nvim-dap-ui',
   'github/copilot.vim',
+  'nvim-tree/nvim-web-devicons',
+{ 'echasnovski/mini.nvim', version = false },
+  --{
+  --'stevearc/oil.nvim',
+   -- opts = {},
+  --}
 }
 
 local opts = {}
